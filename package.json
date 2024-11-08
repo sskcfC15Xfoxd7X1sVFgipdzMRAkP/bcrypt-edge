@@ -23,7 +23,9 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/bcrypt-edge.mjs"
+      "import": "./dist/bcrypt-edge.mjs",
+      "require": "./dist/bcrypt-edge.mjs",
+      "default": "./dist/bcrypt-edge.mjs"
     }
   },
   "main": "./dist/bcrypt-edge.mjs",
