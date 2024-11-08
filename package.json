@@ -19,7 +19,8 @@
   "scripts": {
     "build": "unbuild",
     "test": "vitest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prepare": "npm run build"
   },
   "exports": {
     ".": {
